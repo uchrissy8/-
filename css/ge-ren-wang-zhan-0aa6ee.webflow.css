@@ -1502,6 +1502,7 @@ figcaption {
   -webkit-transform: translate(0px, 0px);
   -ms-transform: translate(0px, 0px);
   transform: translate(0px, 0px);
+  cursor: pointer;
 }
 
 .contactpage {
@@ -1692,6 +1693,46 @@ figcaption {
   background-color: rgba(132, 121, 121, 0.44);
   font-family: Exo, sans-serif;
   color: #fff9f9;
+}
+
+.image-3 {
+  cursor: pointer;
+}
+
+.link-6 {
+  padding: 10px;
+  background-color: #dba02f;
+  -webkit-transition-property: all;
+  transition-property: all;
+  -webkit-transition-duration: 500ms;
+  transition-duration: 500ms;
+  color: #fff;
+  text-align: center;
+  text-decoration: none;
+}
+
+.link-6:hover {
+  border: 1px solid #dba02f;
+  background-color: #fff;
+  color: #dba02f;
+}
+
+.link-7 {
+  padding: 10px;
+  background-color: #dba02f;
+  -webkit-transition-property: all;
+  transition-property: all;
+  -webkit-transition-duration: 500ms;
+  transition-duration: 500ms;
+  color: #fff;
+  text-align: center;
+  text-decoration: none;
+}
+
+.link-7:hover {
+  border: 1px solid #dba02f;
+  background-color: #fff;
+  color: #dba02f;
 }
 
 @media screen and (max-width: 991px) {
